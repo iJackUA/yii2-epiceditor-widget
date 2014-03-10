@@ -1,0 +1,22 @@
+{
+	"name": "ijackua/yii2-epiceditor-widget",
+	"description": "Yii2 widget for EpicEditor - An Embeddable JavaScript Markdown Editor",
+	"keywords": ["markdown", "editor", "epiceditor", "yii", "extension", "widget"],
+	"homepage": "https://github.com/iJackUA/yii2-epiceditor-widget",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Evgeniy Kuzminov",
+			"email": "kyzminov@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"ijackua\\epiceditor\\": ""
+		}
+	}
+}

@@ -9,10 +9,11 @@
 namespace ijackua\epiceditor;
 
 use yii\web\AssetBundle;
+use yii;
 
 class EpiceditorAssets extends AssetBundle
 {
-	public $sourcePath = '@app/widgets/epiceditor/assets';
+	public $sourcePath = '@epiceditor/assets';
 	public $basePath = '@webroot/assets';
 	public $js = [
 		'js/epiceditor.js',
@@ -31,4 +32,9 @@ class EpiceditorAssets extends AssetBundle
 	public $depends = [
 		'yii\web\JqueryAsset',
 	];
+
+	public function init() {
+		Yii::setAlias('@epiceditor', __DIR__);
+		return parent::init();
+	}
 }

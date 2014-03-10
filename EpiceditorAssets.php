@@ -1,4 +1,11 @@
 <?php
+/**
+ * Epiceditor assets class file
+ *
+ * @author Evgeniy Kuzminov
+ * @license MIT License
+ * http://stdout.in
+ */
 namespace ijackua\epiceditor;
 
 use yii\web\AssetBundle;

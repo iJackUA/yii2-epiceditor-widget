@@ -1,4 +1,11 @@
 <?php
+/**
+ * Epiceditor class file
+ *
+ * @author Evgeniy Kuzminov
+ * @license MIT License
+ * http://stdout.in
+ */
 namespace ijackua\epiceditor;
 
 use yii\helpers\ArrayHelper;
@@ -7,9 +14,6 @@ use yii\helpers\Json;
 use Yii;
 use yii\widgets\InputWidget;
 
-/**
- *
- */
 class Epiceditor extends InputWidget
 {
 	/**

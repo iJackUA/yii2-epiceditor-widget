@@ -104,7 +104,7 @@ class Epiceditor extends InputWidget
 		}
 
 		//hack to set correct basePath, could be a better way to get hash of dynamic assets folder
-		$path = app()->assetManager->publish((new EpiceditorAssets)->sourcePath);
+		$path = Yii::$app->assetManager->publish((new EpiceditorAssets)->sourcePath);
 		$this->options['basePath'] = ArrayHelper::getValue($path, 1);
 	}
 
